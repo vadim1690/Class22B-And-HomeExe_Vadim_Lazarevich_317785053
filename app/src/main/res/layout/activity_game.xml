@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Game">
+    tools:context=".activities.Activity_Game">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="6"
+            android:layout_weight="9"
             android:background="#035E06"
             android:orientation="vertical">
 
@@ -95,8 +95,7 @@
                     <ImageView
                         android:id="@+id/game_IMG_board_01"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_monster_right" />
+                        android:layout_height="wrap_content" />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -110,8 +109,37 @@
                     <ImageView
                         android:id="@+id/game_IMG_board_02"
                         android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_monster_right" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_03"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -162,6 +190,34 @@
 
                     <ImageView
                         android:id="@+id/game_IMG_board_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -219,6 +275,34 @@
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
             </androidx.appcompat.widget.LinearLayoutCompat>
             <!-- Row 3-->
             <androidx.appcompat.widget.LinearLayoutCompat
@@ -269,6 +353,34 @@
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
             </androidx.appcompat.widget.LinearLayoutCompat>
 
 
@@ -303,8 +415,7 @@
                     <ImageView
                         android:id="@+id/game_IMG_board_41"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_hero_right" />
+                        android:layout_height="wrap_content" />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -322,58 +433,203 @@
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
             </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <!-- Row 5-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#035E06">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <!-- Row 6-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#035E06">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_hero_right" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_custom"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/game_IMG_board_64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <!--  Buttons LL-->
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2"
-            android:background="#A12AFF"
-            android:padding="10dp">
 
-            <ImageView
-                android:id="@+id/game_IMG_upArrow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_centerInParent="true"
-
-                android:rotation="180"
-                android:src="@drawable/ic_arrow" />
-
-            <ImageView
-                android:id="@+id/game_IMG_downArrow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerInParent="true"
-
-                android:src="@drawable/ic_arrow" />
-
-            <ImageView
-                android:id="@+id/game_IMG_rightArrow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerInParent="true"
-                android:layout_marginEnd="95dp"
-                android:rotation="270"
-                android:src="@drawable/ic_arrow" />
-
-            <ImageView
-                android:id="@+id/game_IMG_leftArrow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_centerInParent="true"
-                android:layout_marginStart="95dp"
-                android:rotation="90"
-                android:src="@drawable/ic_arrow" />
-
-
-        </RelativeLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 

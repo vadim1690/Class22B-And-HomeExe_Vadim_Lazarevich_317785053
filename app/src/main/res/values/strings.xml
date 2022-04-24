@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Class22B-And-HomeExe_Vadim_Lazarevich_317785053</string>
+    <string name="app_name">RETRO GAME</string>
+
+    <string name="BUNDLE_KEY_FROM_GAME">FROM_GAME</string>
+    <string name="LOCATION_PERMISSION_MESSAGE">Location Permission must be granted</string>
+    <string name="INVALID_NAME_ENTERED_MESSAGE">Must enter valid player name</string>
+    <string name="BUNDLE_RECORD_KEY">RECORD</string>
+
+
+    <string name="GAME_OVER_MESSAGE">Game Over !</string>
+    <string name="CONFIRMATION_BUTTON_TEXT">OK</string>
+
+
+
 </resources>

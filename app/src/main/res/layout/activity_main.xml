@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Activity_Main">
+<!--    General LL-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A12AFF"
+        android:orientation="vertical">
+        <!--        Header LL-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="#457B9D"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_bullpen3d"
+                android:text="WELCOME TO  "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_bullpen3d"
+                android:text="THE ULTIMATE  "
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_bullpen3d"
+                android:text="RETRO GAME  "
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:textStyle="bold">
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_monster_right">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_hero_left">
+
+                </ImageView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black">
+
+        </View>
+        <!-- Body LL-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="#457B9D"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#1D3557"
+                android:fontFamily="@font/font_albam"
+                android:text="Play"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:icon="@drawable/ic_joystick"
+                app:iconPadding="20dp"
+                app:iconSize="40dp"
+                app:iconTint="#9E9E9E">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_leaderboards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#1D3557"
+                android:fontFamily="@font/font_albam"
+                android:text="Records"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:icon="@drawable/ic_leaderboard"
+                app:iconPadding="7dp"
+                app:iconSize="40dp"
+                app:iconTint="#9E9E9E">
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black">
+
+        </View>
+
+        <!-- Bottom LL-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1D3557"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="Vadim Lazarevich ©"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:padding="0dp"
+                android:src="@drawable/my_avatar">
+
+            </ImageView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
